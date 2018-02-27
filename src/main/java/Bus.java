@@ -32,4 +32,12 @@ public class Bus {
         this.passengers.add(busStop.removePersonFromQueue());
     }
 
+
+//    could also do it this way instead of having an add passenger and pickup method
+//    public void addPassenger(BusStop busStop) {
+//        if (numberOfPassengers() < capacity) {
+//            this.passengers.add(busStop.removePersonFromQueue());
+//        }
+//    }
+
 }
